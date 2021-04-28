@@ -1,0 +1,8 @@
+Create function to print numbers which contains specific digit 
+the function must support top and bottom range
+
+example:
+
+print_specific_numbers_in_sequence(3, 8, 30)
+
+8, 18, 28
