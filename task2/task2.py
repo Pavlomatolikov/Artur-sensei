@@ -7,7 +7,7 @@ def magic(a = input("Enter start of range, needed number and end of range separa
     try:
         b = list(map(int, a))
     except:
-        print ("You are a piece of shit, you were asked to enter numbers!!!")
+        print ("You are a piece of shit, you were asked to enter numbers but got: '{}'!!!".format(a))
         a = input("Enter start of range, needed number and end of range separated by white space: ").split()
     else:
         my_list = [str(i) for i in range(b[0], b[2])]
