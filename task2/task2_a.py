@@ -10,10 +10,20 @@ import unittest
 
 
 def find_numbers(start, number, end):
-  """
-  implement me
-  """
-    pass
+    start = int(start)
+    number = int(number)
+    end = int(end)
+    
+    def if_present(where_to_search, sought):
+        while where_to_search > 0:
+            if where_to_search % 10 == sought:
+                break
+            where_to_search = where_to_search // 10
+        return where_to_search > 0
+        
+    my_list = [i for i in range(start, end + 1) if if_present(i, number)]
+    return my_list
+
 
 
 class Test(unittest.TestCase):
