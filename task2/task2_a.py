@@ -34,5 +34,5 @@ class Test(unittest.TestCase):
         assert find_numbers(5, 5, 25) == [5, 15, 25]
 
 
-if _name_ == '__main__':
+if __name__ == '__main__':
     unittest.main()
