@@ -1,0 +1,14 @@
+"""
+Your task is to write a class maskify, which changes all but the last four characters into '#'.
+maskify("4556364607935616") == "############5616"
+maskify(     "64607935616") ==      "#######5616"
+maskify(               "1") ==                "1"
+maskify(                "") ==                 ""
+
+
+class must get input string in constructor and consists of 2 methods: public_value(), private_value()
+
+public_value - return masked
+private_value - return original
+
+"""
